@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Annamalai S — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">AS<span class="cursor-blink">_</span></div>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav__cta">Contact</a></li>
+    </ul>
+    <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="about">
+    <div class="hero__noise"></div>
+    <div class="hero__grid-overlay"></div>
+
+    <div class="hero__content">
+      <p class="hero__tag reveal">[ Computer Science Engineer ]</p>
+      <h1 class="hero__name reveal">
+        <span class="line">Annamalai</span>
+        <span class="line accent">Shanmugavel</span>
+      </h1>
+      <p class="hero__bio reveal">
+        I'm a Computer Science Engineering student highly interested in web development and graphic designing. I love creating clean,
+user-friendly websites and aesthetically appealing designs, mixing both creativity and technology. I'm always enthusiastic about
+learning new tools and frameworks as well as design trends for maintaining a fresh set of skills. My objective is to develop impactful
+digital experiences with code and design.
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="Annamalai-Resume.pdf" class="btn btn--ghost">Download CV</a>
+      </div>
+    </div>
+
+    <div class="hero__badge reveal">
+      <div class="badge__outer-ring"></div>
+      <div class="badge__photo-wrap">
+        <img src="Annamalai.JPG" alt="AS">
+        <!--<div class="badge__initials">AS</div>-->
+      </div>
+      <div class="badge__dot badge__dot--1"></div>
+      <div class="badge__dot badge__dot--2"></div>
+      <div class="badge__dot badge__dot--3"></div>
+    </div>
+
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section__title reveal"><span class="tag">01.</span> Education</h2>
+      <div class="timeline">
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="card__header">
+              <div>
+                <h3>Sri Ramakrishna Engineering College</h3>
+                <p class="card__sub">M.Tech — Computer Science & Engineering (Integrated 5 Years)</p>
+              </div>
+              <span class="card__badge">2022 – 2027</span>
+            </div>
+            <div class="card__footer">
+              <span class="stat">CGPA <strong>7.36</strong></span>
+              <span class="stat__note">Till 7th Semester</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="card__header">
+              <div>
+                <h3>Sri Visweswara Vidyalaya Matric. Hr. Sec. School</h3>
+                <p class="card__sub">HSC &amp; SSLC</p>
+              </div>
+              <span class="card__badge">2008 – 2022</span>
+            </div>
+            <div class="card__footer">
+              <span class="stat">HSC <strong>73.8%</strong></span>
+              <span class="stat">SSLC <strong>68%</strong></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── 
+  <section class="section section--alt" id="experience">
+    <div class="container">
+      <h2 class="section__title reveal"><span class="tag">02.</span> Experience</h2>
+
+      <div class="exp__card reveal">
+        <div class="exp__icon"><i class="fa-solid fa-hospital"></i></div>
+        <div class="exp__body">
+          <div class="exp__header">
+            <h3>Coimbatore Medical College Hospital</h3>
+            <span class="exp__period">June – December 2025</span>
+          </div>
+          <ul class="exp__list">
+            <li>Involved in working with project models and data engineering in CMCH, specifically with medical data.</li>
+            <li>Worked on data preprocessing, feature engineering, and deep learning models for healthcare projects.</li>
+            <li>Collaborated with clinical and technical staff to ensure data quality, model accuracy, and practical utility.</li>
+          </ul>
+          <div class="exp__tags">
+            <span>Data Preprocessing</span>
+            <span>Deep Learning</span>
+            <span>Healthcare AI</span>
+            <span>Feature Engineering</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+-->
+
+  <!-- ── PROJECTS ── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section__title reveal"><span class="tag">03.</span> Projects</h2>
+      <div class="projects__grid">
+
+        <div class="project__card reveal">
+          <div class="project__num">01</div>
+          <div class="project__content">
+            <span class="project__date">May 2024</span>
+            <h3>Mango Disease Identification</h3>
+            <p>Utilises SQLite to store plant disease datasets and YOLOv8 for accurate disease detection. Python backend with an interactive HTML & CSS frontend.</p>
+            <div class="project__stack">
+              <span>YOLOv8</span><span>Python</span><span>SQLite</span><span>HTML/CSS</span>
+            </div>
+          </div>
+          <div class="project__glow"></div>
+        </div>
+
+        <div class="project__card reveal">
+          <div class="project__num">02</div>
+          <div class="project__content">
+            <span class="project__date">April 2025</span>
+            <h3>Village Grievance Redressal System</h3>
+            <p>MERN stack platform for rural citizens to submit and track complaints in Tamil, with Text-to-Speech support, role-based access, media uploads, and geolocation tagging.</p>
+            <div class="project__stack">
+              <span>MERN</span><span>Tamil NLP</span><span>TTS</span><span>Geolocation</span>
+            </div>
+          </div>
+          <div class="project__glow"></div>
+        </div>
+
+        <div class="project__card reveal">
+          <div class="project__num">03</div>
+          <div class="project__content">
+            <span class="project__date">May 2025</span>
+            <h3>Services Management System</h3>
+            <p>MERN stack app connecting service providers and users with JWT auth, Razorpay payment integration, and RESTful APIs deployed on MongoDB Atlas, Railway & Vercel.</p>
+            <div class="project__stack">
+              <span>MERN</span><span>JWT</span><span>Razorpay</span><span>Vercel</span>
+            </div>
+          </div>
+          <div class="project__glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <h2 class="section__title reveal"><span class="tag">04.</span> Skills</h2>
+      <div class="skills__wrapper">
+
+        <div class="skills__group reveal">
+          <h4 class="skills__category">Design</h4>
+          <div class="skill__item">
+            <div class="skill__label"><span>Adobe Photoshop</span><span class="skill__pct">85%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="85"></div></div>
+          </div>
+          <div class="skill__item">
+            <div class="skill__label"><span>Adobe Illustrator</span><span class="skill__pct">70%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="70"></div></div>
+          </div>
+        </div>
+
+        <div class="skills__group reveal">
+          <h4 class="skills__category">Frontend</h4>
+          <div class="skill__item">
+            <div class="skill__label"><span>HTML</span><span class="skill__pct">85%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="85"></div></div>
+          </div>
+          <div class="skill__item">
+            <div class="skill__label"><span>CSS</span><span class="skill__pct">70%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="70"></div></div>
+          </div>
+          <div class="skill__item">
+            <div class="skill__label"><span>JavaScript</span><span class="skill__pct">70%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="70"></div></div>
+          </div>
+          <div class="skill__item">
+            <div class="skill__label"><span>ReactJS</span><span class="skill__pct">70%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="70"></div></div>
+          </div>
+        </div>
+
+        <div class="skills__group reveal">
+          <h4 class="skills__category">Programming Languages</h4>
+          <div class="skill__item">
+            <div class="skill__label"><span>C</span><span class="skill__pct">80%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="80"></div></div>
+          </div>
+          <div class="skill__item">
+            <div class="skill__label"><span>Python</span><span class="skill__pct">80%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="80"></div></div>
+          </div>
+          <div class="skill__item">
+            <div class="skill__label"><span>Java</span><span class="skill__pct">70%</span></div>
+            <div class="skill__bar"><div class="skill__fill" data-width="70"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section__title reveal"><span class="tag">05.</span> Contact</h2>
+      <p class="contact__sub reveal">Let's build something great together.</p>
+
+      <div class="contact__grid reveal">
+        <a href="/cdn-cgi/l/email-protection#402d21292c342f212e2e212d212c21297270707400272d21292c6e232f2d" class="contact__card">
+          <i class="fa-solid fa-envelope"></i>
+          <span class="contact__label">Email</span>
+            <span class="contact__value">mailtoannamalai2004@gmail.com</span>        
+        </a>
+        <a href="tel:+918124871751" class="contact__card">
+          <i class="fa-solid fa-phone"></i>
+          <span class="contact__label">Phone</span>
+          <span class="contact__value">+91 8124871751</span>
+        </a>
+        <a href="https://www.linkedin.com/in/annamalai07" target="_blank" class="contact__card">
+          <i class="fa-brands fa-linkedin-in"></i>
+          <span class="contact__label">LinkedIn</span>
+          <span class="contact__value">linkedin.com/in/annamalai07</span>
+        </a>
+        <div class="contact__card contact__card--location">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="contact__label">Location</span>
+          <span class="contact__value">Coimbatore, Tamil Nadu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>Designed & Built by <strong>Annamalai S</strong> &copy; 2025</p>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // ── Scroll reveal ──
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => observer.observe(el));
+
+    // ── Skill bar animation ──
+    const skillObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.skill__fill').forEach(bar => {
+            bar.style.width = bar.dataset.width + '%';
+          });
+        }
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.skills__group').forEach(g => skillObserver.observe(g));
+
+    // ── Sticky nav shadow ──
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('nav--scrolled', window.scrollY > 60);
+    });
+
+    // ── Hamburger ──
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav__links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+    document.querySelectorAll('.nav__links a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
